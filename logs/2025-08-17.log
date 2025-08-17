@@ -179,3 +179,7 @@ Please pass the argument `trust_remote_code=True` to allow custom code to be run
 2025-08-17 15:45:47 | INFO     | src.embedding_system:similarity_search:159 - Tìm kiếm 3 documents tương tự cho câu hỏi: Tôi lo lắng về tương lai sau khi rời quân ngũ
 2025-08-17 15:45:47 | INFO     | src.embedding_system:similarity_search:161 - Đã tìm thấy 3 kết quả
 2025-08-17 15:45:47 | INFO     | src.llm_system:generate_response:73 - Tạo câu trả lời cho câu hỏi: Tôi lo lắng về tương lai sau khi rời quân ngũ
+2025-08-17 15:45:51 | INFO     | src.llm_system:generate_response:92 - Đã tạo câu trả lời thành công
+2025-08-17 15:45:51 | INFO     | src.rag_system:process_query:84 - Đã xử lý câu hỏi thành công
+2025-08-17 15:45:51 | INFO     | src.chatbot:process_message:73 - Đã xử lý tin nhắn thành công
+2025-08-17 15:45:51 | INFO     | __main__:main:106 - Đã hiển thị câu trả lời
