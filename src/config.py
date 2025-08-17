@@ -39,3 +39,6 @@ TOP_K = 3
 # Cấu hình Streamlit
 STREAMLIT_TITLE = "Chatbot Tư Vấn Tâm Lý Quân Nhân"
 STREAMLIT_DESCRIPTION = "Hệ thống hỗ trợ tư vấn tâm lý cho quân nhân dựa trên công nghệ AI"
+
+# Cấu hình lịch sử hội thoại
+HISTORY_FOLDER = str(ROOT_DIR / "history")
