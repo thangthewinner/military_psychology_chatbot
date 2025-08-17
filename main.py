@@ -83,12 +83,6 @@ def main():
         logger.info("Bắt đầu khởi động ứng dụng Streamlit")
         
         try:
-            # Kiểm tra xem vector database đã được tạo chưa
-            vector_db_path = os.path.join("vector_db", "index.faiss")
-            if not os.path.exists(vector_db_path):
-                print("CẢNH BÁO: Vector database chưa được khởi tạo. Vui lòng chạy 'python main.py --setup-db' trước.")
-                logger.warning("Vector database chưa được khởi tạo")
-            
             # Khởi động Streamlit
             print("Đang khởi động ứng dụng Streamlit...")
             os.system("python -m streamlit run src/streamlit_app.py")
