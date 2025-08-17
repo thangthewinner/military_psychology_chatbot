@@ -20,7 +20,7 @@ Hệ thống chatbot tư vấn tâm lý cho quân nhân trong quân đội dựa
 ## Cấu trúc dự án
 
 ```
-nguyenvietong_chatbot/
+military_psychology_chatbot/
 ├── data/                  # Thư mục chứa dữ liệu
 │   └── military_psychology.csv
 ├── logs/                  # Thư mục chứa log

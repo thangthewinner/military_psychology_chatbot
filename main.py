@@ -32,12 +32,28 @@ def parse_args():
     return parser.parse_args()
 
 
+def ensure_directories_exist():
+    """
+    Đảm bảo các thư mục cần thiết tồn tại
+    """
+    directories = ["logs", "history"]
+    for directory in directories:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            logger.info(f"Đã tạo thư mục {directory}")
+        else:
+            logger.debug(f"Thư mục {directory} đã tồn tại")
+
+
 def main():
     """
     Hàm chính của ứng dụng
     """
     # Thiết lập logger
     setup_logger()
+    
+    # Đảm bảo các thư mục cần thiết tồn tại
+    ensure_directories_exist()
     
     # Phân tích tham số dòng lệnh
     args = parse_args()
