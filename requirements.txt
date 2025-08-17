@@ -12,6 +12,7 @@ sentence-transformers==5.1.0
 transformers>=4.55.2
 torch==2.8.0
 huggingface-hub==0.34.4
+hf_xet==1.1.7
 
 # Vector database
 chromadb==1.0.17
