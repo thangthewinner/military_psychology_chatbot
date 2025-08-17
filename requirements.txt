@@ -15,10 +15,13 @@ huggingface-hub==0.34.4
 
 # Vector database
 chromadb==1.0.17
+faiss-cpu==1.12.0
 
 # Workflow and LLM
 langchain==0.3.27
 langgraph==0.6.5
+langchain-community==0.3.27
+langchain-huggingface==0.3.1
 
 # Utilities
 pydantic==2.11.7
@@ -29,3 +32,4 @@ loguru>=0.7.3
 
 # LLM
 litellm==1.75.8
+groq==0.31.0
